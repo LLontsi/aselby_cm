@@ -13,7 +13,7 @@ class Adherent(models.Model):
     matricule  = models.CharField(max_length=20, primary_key=True)
     nom_prenom = models.CharField(max_length=200)
     statut     = models.CharField(max_length=10, choices=STATUT_CHOICES, default=ACTIF)
-
+    numero_ordre =models.IntegerField(uniaue=True)
     # TODO : Ajouter les autres champs (numero_ordre, fonction, telephone1, telephone2,
     # residence, date_adhesion, date_reception, photo, poste_bureau, notes,
     # date_creation, date_modification) — voir schema_bd_aselby.pdf
