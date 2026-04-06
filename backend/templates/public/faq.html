@@ -1,0 +1,39 @@
+{% extends "public/base_public.html" %}
+{% block titre %}FAQ{% endblock %}
+
+{% block contenu %}
+<section class="page-hero">
+  <div class="container page-hero-content">
+    <div class="breadcrumb-pub">
+      <a href="{% url 'public:accueil' %}">Accueil</a><span>/</span><span>FAQ</span>
+    </div>
+    <h1 class="page-hero-title">Questions fréquentes</h1>
+    <p class="page-hero-subtitle">Tout ce que vous devez savoir sur ASELBY</p>
+  </div>
+</section>
+
+<section class="section section-bg-gray">
+  <div class="container">
+    {% if faqs %}
+    <div class="faq-list">
+      {% for faq in faqs %}
+      <div class="faq-item animate-on-scroll delay-{{ forloop.counter }}00">
+        <button class="faq-question">
+          {{ faq.question }}
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-reponse">
+          <div class="faq-reponse-inner">{{ faq.reponse }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-state animate-on-scroll">
+      <i class="fas fa-question-circle"></i>
+      <p>Aucune question enregistrée pour le moment.</p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

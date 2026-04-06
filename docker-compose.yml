@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-aselby_db}
+      POSTGRES_USER: ${DB_USER:-aselby_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-aselby_pass}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    expose:
+      - "5432"
+
+  web:
+    build: ./backend
+    restart: unless-stopped
+    volumes:
+      - ./backend:/app
+      - static_volume:/app/staticfiles
+      - media_volume:/app/media
+      # Monter le dossier Excel dans le container
+      - ./ASELBYTONTINE_2026:/data/excel
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file:
+      - .env
+    environment:
+      - DJANGO_SETTINGS_MODULE=config.settings.prod
+      - DB_HOST=db
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
+  static_volume:
+  media_volume:
