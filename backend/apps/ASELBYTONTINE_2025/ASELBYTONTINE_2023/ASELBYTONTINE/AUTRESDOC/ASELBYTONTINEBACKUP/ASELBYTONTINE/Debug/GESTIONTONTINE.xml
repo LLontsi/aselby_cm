@@ -1,0 +1,656 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GESTIONTONTINE
+</name>
+</assembly>
+<members>
+<member name="T:GestionTotine.tontineadherent.adherentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontineadherent.adherentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontineadherent.adherentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontineadherent">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineadherentTableAdapters.adherentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontineadherentTableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontineadherent,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineadherentTableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontineadherent,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineadherentTableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontineadherent,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontineadherentTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontineadherentTableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontineadherent)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontineadherentTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontineadherentTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontineadherentTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionTotine.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet3.journalsanctionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet3.journalsanctionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet3.journalsanctionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet3TableAdapters.journalsanctionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontineDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontineDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontineDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet3TableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontineDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet6.aidesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet6.aidesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet6.aidesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet6TableAdapters.aidesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontineDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontineDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontineDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet6TableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontineDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet9.postesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet9.postesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet9.postesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet9">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet9TableAdapters.postesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontineDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontineDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontineDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet9TableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontineDataSet9)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet9TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionTotine.tontineaides2.aidesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontineaides2.aidesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontineaides2.aidesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontineaides2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineaides2TableAdapters.aidesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontineaides2TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontineaides2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineaides2TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontineaides2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineaides2TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontineaides2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontineaides2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontineaides2TableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontineaides2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontineaides2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontineaides2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontineaides2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet2.caissesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet2.caissesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet2.caissesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet2TableAdapters.caissesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontineDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontineDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontineDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet2TableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontineDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet5.journalaidesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet5.journalaidesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet5.journalaidesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet5TableAdapters.journalaidesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontineDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontineDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontineDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet5TableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontineDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet8.adherentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet8.adherentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet8.adherentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet8TableAdapters.adherentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontineDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontineDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontineDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet8TableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontineDataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:GestionTotine.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member><member name="P:GestionTotine.My.Resources.Resources.Culture">
+	<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member><member name="T:GestionTotine.My.Resources.Resources">
+	<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member><member name="T:GestionTotine.DataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet1.caissesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet1.caissesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet1.caissesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet1TableAdapters.caissesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontineDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontineDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontineDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet1TableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontineDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet4.journalcaissesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet4.journalcaissesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet4.journalcaissesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet4TableAdapters.journalcaissesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontineDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontineDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontineDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet4TableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontineDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet7.aidesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet7.aidesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet7.aidesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet7TableAdapters.aidesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontineDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontineDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontineDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontineDataSet7TableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontineDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontineDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GestionTotine.tontinecaisse2.caissesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GestionTotine.tontinecaisse2.caissesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GestionTotine.tontinecaisse2.caissesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GestionTotine.tontinecaisse2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GestionTotine.tontinecaisse2TableAdapters.caissesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GestionTotine.tontinecaisse2TableAdapters.TableAdapterManager.UpdateUpdatedRows(GestionTotine.tontinecaisse2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontinecaisse2TableAdapters.TableAdapterManager.UpdateInsertedRows(GestionTotine.tontinecaisse2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GestionTotine.tontinecaisse2TableAdapters.TableAdapterManager.UpdateDeletedRows(GestionTotine.tontinecaisse2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GestionTotine.tontinecaisse2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GestionTotine.tontinecaisse2TableAdapters.TableAdapterManager.UpdateAll(GestionTotine.tontinecaisse2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GestionTotine.tontinecaisse2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GestionTotine.tontinecaisse2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GestionTotine.tontinecaisse2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
